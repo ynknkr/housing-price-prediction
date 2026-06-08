@@ -9,22 +9,22 @@ The objective was to identify the most important factors influencing housing pri
 ## Business Objective
 
 Accurate housing price predictions can support buyers, sellers, and real estate professionals in estimating property values and making informed decisions.
+The project also aims to identify the most influential factors affecting housing prices and compare the performance of multiple machine learning algorithms.
 
 ## Dataset
 
 * Dataset: Ames Housing Dataset
+* Source: https://www.kaggle.com/datasets/marcopale/housing/data
 * Target Variable: SalePrice
 
 ## Project Workflow
 
 1. Exploratory Data Analysis (EDA)
 2. Data Cleaning and Preprocessing
-3. Log Transformation
-4. Feature Encoding and Scaling
-5. Baseline Model Development
-6. Model Experimentation
-7. Final Model Selection
-8. Cross Validation Assessment
+3. Baseline Model Development
+4. Machine Learning Model Experiments
+5. Final Model Selection
+6. Cross Validation Assessment
 
 ## Models Evaluated
 
@@ -62,7 +62,6 @@ Gradient Boosting was selected as the final model.
 * NumPy
 * Matplotlib
 * Scikit-learn
-* XGBoost
 * Joblib
 
 ## Repository Structure
@@ -70,8 +69,6 @@ Gradient Boosting was selected as the final model.
 ```text
 data/
 notebooks/
-outputs/
-src/
 requirements.txt
 README.md
 ```
